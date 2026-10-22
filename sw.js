@@ -1,5 +1,5 @@
 // Keeps Kullerkuss playable offline: everything is cached on first start.
-const CACHE = "kullerkuss-v4";
+const CACHE = "kullerkuss-v5";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
